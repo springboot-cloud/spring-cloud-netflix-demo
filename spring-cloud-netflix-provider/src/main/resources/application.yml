@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-cloud-netflix-provider
+
+server:
+  port: 8762
+
+swagger:
+  base:
+    package: com.framework.provider.controller
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

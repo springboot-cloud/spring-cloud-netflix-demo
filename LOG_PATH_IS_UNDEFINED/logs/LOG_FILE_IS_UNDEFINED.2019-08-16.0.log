@@ -1,0 +1,106 @@
+2019-08-16 23:49:03.981,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4bac856c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 23:49:04.696,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.framework.cloud.eureka.EurekaApplication - No active profile set, falling back to default profiles: default
+2019-08-16 23:49:05.527,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-16 23:49:05.952,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.context.scope.GenericScope - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2019-08-16 23:49:06.082,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4bac856c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 23:49:06.363,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+2019-08-16 23:49:06.378,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2019-08-16 23:49:06.391,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-16 23:49:06.392,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 23:49:06.570,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-16 23:49:06.570,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1859 ms
+2019-08-16 23:49:06.723,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-16 23:49:06.724,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-16 23:49:06.738,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7aac8884
+2019-08-16 23:49:08.132,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-08-16 23:49:08.213,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-16 23:49:08.215,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-16 23:49:08.343,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-16 23:49:08.344,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-16 23:49:08.738,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-16 23:49:08.739,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-16 23:49:08.939,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 23:49:09.978,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-16 23:49:10.009,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-16 23:49:10.009,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-08-16 23:49:10.016,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565970550014 with initial instances count: 0
+2019-08-16 23:49:10.063,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-08-16 23:49:10.065,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-08-16 23:49:10.084,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-08-16 23:49:10.085,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-08-16 23:49:10.097,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-16 23:49:10.216,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-NETFLIX-DEMO-EUREKA with eureka with status UP
+2019-08-16 23:49:10.221,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Setting the eureka configuration..
+2019-08-16 23:49:10.224,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-08-16 23:49:10.225,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-08-16 23:49:10.257,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2019-08-16 23:49:10.260,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - isAws returned false
+2019-08-16 23:49:10.262,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Initialized server context
+2019-08-16 23:49:10.262,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-08-16 23:49:10.262,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-08-16 23:49:10.262,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-08-16 23:49:10.283,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-08-16 23:49:10.305,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+2019-08-16 23:49:10.306,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8761
+2019-08-16 23:49:10.310,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.framework.cloud.eureka.EurekaApplication - Started EurekaApplication in 8.9 seconds (JVM running for 10.652)
+2019-08-16 23:49:10.783,LOG_FILE_IS_UNDEFINED,INFO ,plain,[RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-16 23:49:10.786,LOG_FILE_IS_UNDEFINED,INFO ,plain,[RMI TCP Connection(5)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-16 23:49:10.801,LOG_FILE_IS_UNDEFINED,INFO ,plain,[RMI TCP Connection(5)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-08-16 23:50:10.264,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:51:10.264,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:51:28.005,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b3338086] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 23:51:28.694,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.framework.cloud.eureka.EurekaApplication - No active profile set, falling back to default profiles: default
+2019-08-16 23:51:29.626,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-16 23:51:29.943,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.context.scope.GenericScope - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2019-08-16 23:51:30.054,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b3338086] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 23:51:30.351,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+2019-08-16 23:51:30.370,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2019-08-16 23:51:30.382,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-16 23:51:30.383,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 23:51:30.552,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-16 23:51:30.553,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1845 ms
+2019-08-16 23:51:30.675,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-16 23:51:30.675,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-16 23:51:30.691,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5679e96b
+2019-08-16 23:51:32.061,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-08-16 23:51:32.140,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-08-16 23:51:32.141,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-08-16 23:51:32.260,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-08-16 23:51:32.260,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-08-16 23:51:32.658,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-08-16 23:51:32.658,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-16 23:51:32.861,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 23:51:33.993,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-08-16 23:51:34.027,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-08-16 23:51:34.027,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-08-16 23:51:34.035,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1565970694034 with initial instances count: 0
+2019-08-16 23:51:34.080,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-08-16 23:51:34.083,LOG_FILE_IS_UNDEFINED,WARN ,plain,[main] com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-08-16 23:51:34.109,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-08-16 23:51:34.110,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-08-16 23:51:34.123,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-16 23:51:34.243,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-NETFLIX-DEMO-EUREKA with eureka with status UP
+2019-08-16 23:51:34.248,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Setting the eureka configuration..
+2019-08-16 23:51:34.248,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-08-16 23:51:34.249,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-08-16 23:51:34.274,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2019-08-16 23:51:34.276,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - isAws returned false
+2019-08-16 23:51:34.277,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap - Initialized server context
+2019-08-16 23:51:34.277,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-08-16 23:51:34.277,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-08-16 23:51:34.277,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-08-16 23:51:34.298,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Thread-29] org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-08-16 23:51:34.318,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+2019-08-16 23:51:34.320,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8761
+2019-08-16 23:51:34.323,LOG_FILE_IS_UNDEFINED,INFO ,plain,[main] com.framework.cloud.eureka.EurekaApplication - Started EurekaApplication in 8.983 seconds (JVM running for 10.572)
+2019-08-16 23:51:34.700,LOG_FILE_IS_UNDEFINED,INFO ,plain,[RMI TCP Connection(4)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-16 23:51:34.701,LOG_FILE_IS_UNDEFINED,INFO ,plain,[RMI TCP Connection(4)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-16 23:51:34.714,LOG_FILE_IS_UNDEFINED,INFO ,plain,[RMI TCP Connection(4)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-08-16 23:52:34.279,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:53:34.279,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:54:34.280,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:55:34.280,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:56:34.280,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:57:34.280,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:58:34.281,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-08-16 23:59:34.281,LOG_FILE_IS_UNDEFINED,INFO ,plain,[Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
