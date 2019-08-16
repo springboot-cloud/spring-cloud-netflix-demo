@@ -18,6 +18,8 @@ target/
 *.iws
 *.iml
 *.ipr
+*.log
+**/LOG_PATH_IS_UNDEFINED/
 
 ### NetBeans ###
 /nbproject/private/
