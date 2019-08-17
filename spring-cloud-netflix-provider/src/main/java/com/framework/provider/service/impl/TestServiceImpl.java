@@ -16,7 +16,14 @@ public class TestServiceImpl implements TestService {
     private String port;
 
     @Override
-    public String sayHello(String massage) {
-        return String.format("Hi，your massage is : %s i am from port : %s", massage, port);
+    public String sayHello(String message) {
+        return String.format("Hi，your message is : %s i am from port : %s", message, port);
     }
+
+    @Override
+    public String sayHi(String name) {
+        return String.format("Hi，your name is : %s i am from port : %s", name, port);
+    }
+
+
 }

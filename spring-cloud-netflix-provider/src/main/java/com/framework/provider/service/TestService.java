@@ -9,9 +9,16 @@ public interface TestService {
 
     /**
      * 测试
-     * @param massage massage
+     * @param message message
      * @return String
      */
-    String sayHello(String massage);
+    String sayHello(String message);
+
+    /**
+     * 测试
+     * @param name name
+     * @return String
+     */
+    String sayHi(String name);
 
 }
