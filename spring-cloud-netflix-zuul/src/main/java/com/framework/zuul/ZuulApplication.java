@@ -1,21 +1,22 @@
-package com.framework.provider;
+package com.framework.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
- * @description: 服务提供者启动类
+ * @description: Zuul网关启动类
  * @author: XiongFeiYang
- * @createTime: 2019-08-17 00:01
+ * @createTime: 2019-08-18 19:42
  **/
-
+@EnableZuulProxy
 @EnableEurekaClient
 @SpringBootApplication
-public class ProviderApplication {
+public class ZuulApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProviderApplication.class, args);
+        SpringApplication.run(ZuulApplication.class, args);
     }
 
 }
