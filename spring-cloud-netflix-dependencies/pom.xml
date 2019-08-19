@@ -28,6 +28,8 @@
         <swagger2.version>2.9.2</swagger2.version>
         <!-- FastJson -->
         <fastjson.version>1.2.58</fastjson.version>
+        <!-- ZipKin -->
+        <zipkin.version>2.10.1</zipkin.version>
         <!-- Spring Settings -->
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
@@ -64,6 +66,24 @@
                 <version>${fastjson.version}</version>
             </dependency>
             <!-- FastJson  End-->
+
+            <!-- ZipKin Begin -->
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin</artifactId>
+                <version>${zipkin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-server</artifactId>
+                <version>${zipkin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-autoconfigure-ui</artifactId>
+                <version>${zipkin.version}</version>
+            </dependency>
+            <!-- ZipKin End -->
         </dependencies>
     </dependencyManagement>
 

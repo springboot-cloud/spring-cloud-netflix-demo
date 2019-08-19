@@ -10,10 +10,10 @@
         <!--<relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>-->
     </parent>
 
-    <artifactId>spring-cloud-netflix-zuul</artifactId>
+    <artifactId>spring-cloud-netflix-zipkin</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-netflix-zuul</name>
+    <name>spring-cloud-netflix-zipkin</name>
     <url>https://www.isexcuse.com</url>
     <inceptionYear>2019-Now</inceptionYear>
 
@@ -30,28 +30,30 @@
         </dependency>
         <!-- Spring Boot End -->
 
-        <!-- FastJson  Begin-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-        </dependency>
-        <!-- FastJson  End-->
-
         <!-- Spring Cloud Begin -->
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-log4j2</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-        </dependency>
         <!-- Spring Cloud End -->
-
     </dependencies>
 
     <build>
@@ -60,7 +62,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.framework.zuul.ZuulApplication</mainClass>
+                    <mainClass>com.framework.zipkin.ZipKinApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
