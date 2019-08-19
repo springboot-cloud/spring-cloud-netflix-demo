@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-cloud-netflix-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: http://192.168.254.132/KwonJiYong/spring-cloud-config.git
+          search-paths: respo
+          username: 918513194@qq.com
+          password: 12345678
+
+server:
+  port: 8888  # 默认是8888  在application.yml里面改不了   只能在bootstrap.yml里面改
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

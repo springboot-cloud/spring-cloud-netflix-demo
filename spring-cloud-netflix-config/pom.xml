@@ -10,10 +10,10 @@
         <!--<relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>-->
     </parent>
 
-    <artifactId>spring-cloud-netflix-zuul</artifactId>
+    <artifactId>spring-cloud-netflix-config</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-netflix-zuul</name>
+    <name>spring-cloud-netflix-config</name>
     <url>https://www.isexcuse.com</url>
     <inceptionYear>2019-Now</inceptionYear>
 
@@ -30,13 +30,6 @@
         </dependency>
         <!-- Spring Boot End -->
 
-        <!-- FastJson  Begin-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-        </dependency>
-        <!-- FastJson  End-->
-
         <!-- Spring Cloud Begin -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -44,7 +37,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
 
@@ -56,7 +49,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.framework.zuul.ZuulApplication</mainClass>
+                    <mainClass>com.framework.config.ConfigApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
