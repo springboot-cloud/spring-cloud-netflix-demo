@@ -30,6 +30,8 @@
         <fastjson.version>1.2.58</fastjson.version>
         <!-- ZipKin -->
         <zipkin.version>2.10.1</zipkin.version>
+        <!--  -->
+        <spring-boot-admin.version>2.1.6</spring-boot-admin.version>
         <!-- Spring Settings -->
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
@@ -45,6 +47,19 @@
                 <scope>import</scope>
             </dependency>
             <!-- SpringCloud End -->
+
+            <!-- SpringBoot Begin -->
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-client</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <!-- SpringBoot End -->
 
             <!-- Swagger2 Begin -->
             <dependency>

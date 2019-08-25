@@ -10,10 +10,10 @@
         <!--<relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>-->
     </parent>
 
-    <artifactId>spring-cloud-netflix-provider</artifactId>
+    <artifactId>spring-cloud-netflix-admin</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-netflix-provider</name>
+    <name>spring-cloud-netflix-admin</name>
     <url>https://www.isexcuse.com</url>
     <inceptionYear>2019-Now</inceptionYear>
 
@@ -34,20 +34,9 @@
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-client</artifactId>
+            <artifactId>spring-boot-admin-starter-server</artifactId>
         </dependency>
         <!-- Spring Boot End -->
-
-        <!-- Swagger2 Begin -->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-        </dependency>
-        <!-- Swagger2 End -->
 
         <!-- Spring Cloud Begin -->
         <dependency>
@@ -67,7 +56,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.framework.provider.ProviderApplication</mainClass>
+                    <mainClass>com.framework.admin.AdminApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
