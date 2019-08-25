@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: XiongFeiYang
  * @createTime: 2019-08-17 00:06
  **/
-@Api(description = "提供者测试请求入口")
+@Api("提供者测试请求入口")
 @RestController
 @RequestMapping("/provider")
 public class TestController {

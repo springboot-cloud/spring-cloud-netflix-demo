@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: XiongFeiYang
  * @createTime: 2019-08-17 01:27
  **/
-@Api(description = "消费端测试请求入口")
+@Api("消费端测试请求入口")
 @RestController
 @RequestMapping("/consumer")
 public class TestController {

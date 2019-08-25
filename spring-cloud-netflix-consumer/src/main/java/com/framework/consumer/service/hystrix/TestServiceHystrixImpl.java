@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  **/
 @Component
 @RequestMapping("/provider/error")
-public class TestServiceHystrix implements TestService {
+public class TestServiceHystrixImpl implements TestService {
 
     @Override
     public String sayHello(String message) {
