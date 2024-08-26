@@ -25,7 +25,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Swagger2 -->
-        <swagger2.version>2.9.2</swagger2.version>
+        <swagger2.version>2.10.0</swagger2.version>
         <!-- FastJson -->
         <fastjson.version>1.2.58</fastjson.version>
         <!-- ZipKin -->
